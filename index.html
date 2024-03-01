@@ -15,130 +15,202 @@
     </style>
 </head>
 <body>
-    <header >
-        <div>
-            <h2 style="display: inline; margin-left: 20px; color: white;">Portfolio</h2>
-            <h4 style="display: inline; color: white;">Mr. Sirirat Sanghkao</h4>
+    <header>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <h2 style="color: white;">Portfolio</h2>
         </div>
-        <nav style="display: flex; margin-right: 150px;">
+        <nav style="display: flex; justify-content: center; margin: 0 auto;">
             <a href="#home" style="color: white; margin-right: 10px; text-decoration: none;">Home</a>
             <a href="#about" style="color: white; margin-right: 10px; text-decoration: none;">Profile</a>
-            <a href="#portfolio" style="color: white; text-decoration: none;  margin-right: 10px;">Competitions</a>
-            <a href="#projects" style="color: white; text-decoration: none;  margin-right: 10px;">Projects</a>
-            <a href="#activity" style="color: white; text-decoration: none; margin-right: 10px;">Activities</a>
-            <a href="#internship" style="color: white; text-decoration: none; margin-right: 10px;">Internship</a>
-            <a href="#contact" style="color: white; text-decoration: none; margin-right: 10px;">Contact</a>
+            <a href="#portfolio" style="color: white; margin-right: 10px; text-decoration: none;">Competitions</a>
+            <a href="#projects" style="color: white; margin-right: 10px; text-decoration: none;">Projects</a>
+            <a href="#activity" style="color: white; margin-right: 10px; text-decoration: none;">Activities</a>
+            <a href="#internship" style="color: white; margin-right: 10px; text-decoration: none;">Internship</a>
+            <a href="#contact" style="color: white; margin-right: 10px; text-decoration: none;">Contact</a>
         </nav>
-    </header>    
+    </header>
+       
     
     <div id="home" class="background">
         <div class="greeting-text">
-            <h1>Welcome to the Portfolio of </h1>
-            <h4>Mr.Sirirat Sanghkao</h4>
-            <p>ยินดีต้อนรับเข้าสู้แฟ้มสะสมผลงานของ นาย ศิริรัฐ สังข์ขาว</p>
+            <h1>Welcome To My Portfolio</h1>
+            <!-- <h1>I am Chadathip Prangkulcharoenkit</h1> -->
         </div>
     </div>
     <section id="about" style="background-color: #ffffff; padding: 20px;">
         <h2 style="text-align: center; color: #0056b3;">Personal Information</h2>
-        <div class="container" style="display: flex; justify-content: center; align-items: center; max-width: 800px; margin: auto;">
-            <div class="profile-image" style="margin-right: 20px;">
-                <img src="image/IMG_5865.JPG" alt="Your Name" style="width: 200px; height: auto; border-radius: 10px;">
+        <div class="container" style="display: flex; justify-content: center; align-items: center; max-width: 800px; margin: auto; gap: 20px;">
+            <div class="profile-image" style="flex-shrink: 0;">
+                <img src="image/myself2.JPG" alt="Your Name" style="width: 300px; height: auto; border-radius: 10px;">
             </div>
             <div class="profile-info" style="flex-grow: 1;">
-                <p class="animate-text" style="animation-delay: 0.05s;"><strong >Name:</strong> Mr.Sirirat Sanghkao <strong>Nickname:</strong> Dodo</p>
+                <p class="animate-text" style="animation-delay: 0.05s;"><strong>Name:</strong> Ms.Chadathip Prangkulcharoenkit <strong>Nickname:</strong> Bew</p>
                 <p class="animate-text" style="animation-delay: 0.08s;"><strong>Age:</strong> <span id="age">Calculating...</span><strong> years old</strong></p>
                 <script src="cal_age.js"></script>
                 <p class="animate-text" style="animation-delay: 0.11s;"><strong>Education:</strong> Bachelor's Degree</p>
                 <p class="animate-text" style="animation-delay: 0.14s;"><strong>Faculty:</strong> Faculty of Science <strong>Major:</strong> Computer Science</p>
                 <p class="animate-text" style="animation-delay: 0.17s;"><strong>King Mongkut's Institute of Technology Ladkrabang</strong> </p>
-                <p class="animate-text" style="animation-delay: 0.20s;"><strong>GPA :</strong> 3.05 </p>
-                <p class="animate-text" style="animation-delay: 0.23s;"><strong>Skills </strong> 
-                    <br/>&emsp;&emsp;<strong>Programming Language :</strong> Python, JAVA,  Node JS, Next JS, HTML&CSS&JavaScript, PHP, SQL
-                    <br/>&emsp;&emsp;<strong>Other Skills : </strong> Machine Learning&Deep Learning, Analysis Data, Able to analyze and design ER Diagrams, Use Case Diagrams, Activity Diagrams, and Sequence Diagrams.
-                </p>
-                <p class="animate-text" style="animation-delay: 0.26s;"><strong>Tools :</strong> Pandas, Numpy, Scikitlearn, TensorFlow, Karas, Matpotlib, Seaborn, GITHUB, DialogFlow, MongoDB, TailwindCSS </p>
-                <p class="animate-text" style="animation-delay: 0.29s;"><strong>Programs :</strong> Tableau, SAS VIYA, Looker Studio, VS Code, Microsoft (Word, Excel, PowerPoint), Adobe(Photo shop, Lightroom, Premiere pro), Canva, figma </p>
-                <!-- <div class="skill">
-                    <div class="skill-name">Thai Language</div>
-                    <p><strong>Thai Language</strong></p>
-                    <div class="skill-bar"><div class="skill-per" style="width: 80%; background-color: #4CAF50;">80%</div></div>
-                  </div>
-                  <div class="skill">
-                    <div class="skill-name">English Language</div>
-                    <div class="skill-bar"><div class="skill-per" style="width: 30%; background-color: #2196F3;">30%</div></div>
-                  </div> -->
+                <p class="animate-text" style="animation-delay: 0.20s;"><strong>GPA :</strong> 3.36 </p>
             </div>
         </div>
     </section>
-    
-    
-    
-    
-    <br>
-    <h2 id="portfolio" style="text-align: center; color: #0056b3;">Competition Results</h2>
-    <div  class="portfolio-section">
-        <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
-            <div class="portfolio-inner">
-                <div class="portfolio-front">
-                    <img src="image/Certificate.png" alt="Certificate">
-                    <h2>SAS X KMITL Hackathon 3nd</h2>
-                    <button>Details</button>
-                </div>
-                <div class="portfolio-back"  >
-                    <h2>Competition Details</h2>
-                    <p><strong>Award : </strong> Gold Medal, Second Runner-up</p>
-                    <p>This competition involves data analysis and the development of Machine Learning models to predict the likelihood of customers making donations when contacted. With a dataset of 1 million historical records prepared by SAS, participants are tasked with determining if a client will contribute financially upon being approached. The SAS VIYA program is provided for use in this competition
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
-            <div class="portfolio-inner">
-                <div class="portfolio-front">
-                    <img src="image/Sas.png" alt="Certificate">
-                    <h2>SAS X KMITL Hackathon 2nd</h2>
-                    <button>Details</button>
-                </div>
-                <div class="portfolio-back"  >
-                    <h2>Competition Details</h2>
-                    <p><strong>Award : </strong> Goal Medal</p>
-                    <p>This competition involves data analysis and the development of Machine Learning models to predict the likelihood of customers making donations when contacted. With a dataset of 1 million historical records prepared by SAS, participants are tasked with determining if a client will contribute financially upon being approached. The SAS VIYA program is provided for use in this competition
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
-            <div class="portfolio-inner">
-                <div class="portfolio-front">
-                    <img src="image/ASEAN .png" alt="Certificate">
-                    <h2>ASEAN Data Science Explorers</h2>
-                    <button>Details</button>
-                </div>
-                <div class="portfolio-back" >
-                    <h2>Competition Details</h2>
-                    <p><strong>Award : </strong> Participation</p>
-                    <p>The competition involves analyzing problems occurring within ASEAN, referencing the Sustainable Development Goals (SDGs). This competition aims to identify key information about the issues and present solutions to the committee for addressing these problems.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
-            <div class="portfolio-inner">
-                <div class="portfolio-front">
-                    <img src="image/code_arcade.png" alt="Certificate_code_arcade">
-                    <h2>Code Arcade 2021 Booster</h2>
-                    <button>Details</button>
-                </div>
-                <div class="portfolio-back">
-                    <h2>Competition Details</h2>
-                    <p><strong>Award : </strong> Bronze Medal</p>
-                    <p>The competition involves Java programming to solve specific problems, primarily organized for Computer Science students in their 1st to 4th year who are interested and wish to demonstrate their skills. They are encouraged to participate in the competition.
-                    </p>
-                </div>
-            </div>
-        </div>
 
+    <!-- ส่วนของ skill -->
+    <br>
+    <div class="skills-section" style="background-color: #ffffff; padding: 40px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
+        <h2 style="text-align: center; color: #0056b3;">Programming Skills</h2>
+        <div class="skills-container" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <!-- Python Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-python-144.png" alt="Python" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 86, 179, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Python</p>
+            </div>
+            <!-- SQL Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-my-sql-144.png" alt="SQL" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>SQL</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">SQL Command</p>
+            </div>
+            <!-- Java Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-java-144.png" alt="SQL" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Java</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Java</p>
+            </div>
+            <!-- Java Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-javascript-144.png" alt="SQL" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Java Script</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Java Script</p>
+            </div>
+            <!-- HTML Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-html-5-144.png" alt="SQL" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">HTML</p>
+            </div>
+            <!-- css Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-css-144.png" alt="SQL" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">CSS</p>
+            </div>
+        </div>
     </div>
+    
+    <!-- ส่วนของ Tool -->
+    <br>
+    <div class="skills-section" style="background-color: #ffffff; padding: 40px 0; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
+        <h2 style="text-align: center; color: #0056b3;">Tools</h2>
+        <div class="skills-container" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <!-- Pandas Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-pandas-144.png" alt="Python" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 86, 179, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Pandas</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Pandas</p>
+            </div>
+            <!-- Numpy Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/icons8-numpy-144.png" alt="SQL" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Numpy</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Numpy</p>
+            </div>
+            <!-- scikit-learn. Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/scikit.png" alt="SQL" style="width: 100%; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>scikit-learn</span>
+                    </div>
+                </div>                
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Scikit Learn.</p>
+            </div>
+            <!-- Tensorflow Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/Tensorflow_logo.svg.png" alt="Tensorflow" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Tensorflow</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Tensorflow</p>
+            </div>
+            <!-- Keras Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/Keras_logo.svg.png" alt="Keras" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Keras</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Keras</p>
+            </div>
+            <!-- Matplotlib Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/Matplotlib-logo.svg.png" alt="Matplotlib" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Matplotlib</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Matplotlib</p>
+            </div>
+            <!-- seaborn Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/seaborn-logo-244EB2DEC5-seeklogo.com.png" alt="seaborn" style="width: 100%; height: auto;">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>seaborn</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">seaborn</p>
+            </div>
+            <!-- tableau Skill -->
+            <div class="skill">
+                <div class="skill-image" style="position: relative; width: 120px; height: 120px; margin: 0 auto; overflow: hidden; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                    <img src="image/tableau-software.jpg" alt="tableau" style="width: 100%; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <div class="skill-description" style="opacity: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(33, 150, 243, 0.9); color: white; display: flex; align-items: center; justify-content: center; transition: opacity 0.3s;">
+                        <span>Tableau</span>
+                    </div>
+                </div>
+                <p class="skill-name" style="margin-top: 10px; text-align: center;">Tableau</p>
+            </div>            
+        </div>
+    </div>
+    
     <br>
     <div id="projects" class="project-section" style="background-color: #ffffff;">
         <h2 style="text-align: center; color: #0056b3;">Project Achievements</h2>
@@ -147,12 +219,13 @@
                 <div class="project-inner">
                     <div class="">
                         <img src="image/senoirproject.png" alt="Project">
-                        <h5>Court Verdict Classification and Prediction in Thai Juvenile and Family Courts <strong style="color: red;">(Graduation Project)</strong></h5>
+                        <h5>Court Verdict Classification and Prediction in Thai Juvenile and Family Courts <strong style="color: red;">(Senior Project)</strong></h5>
                         <button>Details</button>
                     </div>
                 </div>
             </a>
         </div>
+
         <!-- สามารถเพิ่มโปรเจกต์เพิ่มเติมได้โดยการคัดลอก <div class="project"> และปรับเปลี่ยนข้อมูลภายใน -->
         <div class="project">
             <a href="credit.html" style="text-decoration: none; color: inherit;">
@@ -166,12 +239,26 @@
                 </div>
             </a>
         </div>
+
         <div class="project">
-            <a href="image_classifier.html" style="text-decoration: none; color: inherit;">
+            <a href="bigdata.html" style="text-decoration: none; color: inherit;">
                 <div class="project-inner">
                     <div class="">
-                        <img src="image/botnoi2.png" alt="Project">
-                        <h3 style="padding: 3px;">Develop a model to classify popular dog and cat breeds in Thailand from images <strong style="color: red;">(Internship Project)</strong></h3>
+                        <img src="image/bigdata1.png" alt="Project">
+                        <h3>Sentiment Analysis Using Word Cloud</h3>
+                        <br><br>
+                        <button>Details</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="project">
+            <a href="Sentiment_Classification.html" style="text-decoration: none; color: inherit;">
+                <div class="project-inner">
+                    <div class="">
+                        <img src="image/Screenshot 2567-02-28 at 21.15.32.png" alt="Project">
+                        <h3 style="padding: 3px;">Sentiment Classification <strong style="color: red;">(Internship Project)</strong></h3>
                         <button>Details</button>
                     </div>
                 </div>
@@ -193,8 +280,8 @@
             <a href="chatbot.html" style="text-decoration: none; color: inherit;">
                 <div class="project-inner">
                     <div class="">
-                        <img src="image/chatbot1.png" alt="Project">
-                        <h3 style="padding: 3px;">Career Path Interest-Based Course Recommendation Chatbot</h3>
+                        <img src="image/Final present AGU .png" alt="Project">
+                        <h3 style="padding: 3px;">Agu Bot: A Career Guidance Chatbot Aligned with MBTI and Skill Sets</h3>
                         <button>Details</button>
                     </div>
                 </div>
@@ -202,57 +289,99 @@
         </div>
     </div>
     <br>
+
+        <!-- ส่วนของ competition -->
+        <br>
+        <h2 id="portfolio" style="text-align: center; color: #0056b3;">Competition Results</h2>
+        <div  class="portfolio-section">
+            <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
+                <div class="portfolio-inner">
+                    <div class="portfolio-front">
+                        <img src="image/SAS2024.png" alt="Certificate">
+                        <h2>SAS X KMITL Hackathon 2024 3nd</h2>
+                        <button>Details</button>
+                    </div>
+                    <div class="portfolio-back"  >
+                        <h2>Competition Details</h2>
+                        <p><strong>Award : </strong> Gold Medal, Second Runner-up</p>
+                        <p>This competition involves data analysis and the development of Machine Learning models to predict the likelihood of customers making donations when contacted. With a dataset of 1 million historical records prepared by SAS, participants are tasked with determining if a client will contribute financially upon being approached. The SAS VIYA program is provided for use in this competition
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
+                <div class="portfolio-inner">
+                    <div class="portfolio-front">
+                        <img src="image/SAS2023.png" alt="Certificate">
+                        <h2>SAS X KMITL Hackathon 2023 2nd</h2>
+                        <button>Details</button>
+                    </div>
+                    <div class="portfolio-back"  >
+                        <h2>Competition Details</h2>
+                        <p><strong>Award : </strong> Goal Medal</p>
+                        <p>This competition involves data analysis and the development of Machine Learning models to predict the likelihood of customers making donations when contacted. With a dataset of 1 million historical records prepared by SAS, participants are tasked with determining if a client will contribute financially upon being approached. The SAS VIYA program is provided for use in this competition
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
+                <div class="portfolio-inner">
+                    <div class="portfolio-front">
+                        <img src="image/ADSE.png" alt="Certificate">
+                        <h2>ASEAN Data Science Explorers</h2>
+                        <button>Details</button>
+                    </div>
+                    <div class="portfolio-back" >
+                        <h2>Competition Details</h2>
+                        <p><strong>Award : </strong> Participation</p>
+                        <p>The competition involves analyzing problems occurring within ASEAN, referencing the Sustainable Development Goals (SDGs). This competition aims to identify key information about the issues and present solutions to the committee for addressing these problems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     
+    <!-- ส่วนของ Activities -->
     <h2 id="activity" style="text-align: center; color: #0056b3;">Activities</h2>
     <div class="activity">
         <div class="activity-item">
             <img src="image/274576603_10159943165824362_7543356225677631016_n.jpg" alt="Activity Image" class="activity-image">
             <div class="activity-content">
                 <h2> CS Camp 14</h2>
-                <p><strong>Position: </strong>Head of Public Relations</p>
-                <p><strong>Event Details: </strong>This is a camp organized by the Computer Science department, designed for high school students interested in pursuing further education at KMITL's Computer Science faculty. It offers an opportunity to experience the teaching and learning environment, along with various workshops, over a full five days.
+                <p><strong>Position: </strong>Account Management</p>
+                <p><strong>Event Details: </strong>CS Camp is the camp of computer science KMITL for High School Student. It was the 14th camp organized. I  was a head of the account management team. My main responsibility was to manage the expense for the camp. In this role l learned management of money, prioritization, problem solving and working  as a team.
                 </p>
             </div>
         </div>
         <div class="activity-item">
-            <img src="image/IMG_7216.jpg" alt="Activity Image" class="activity-image">
+            <img src="image/423.jpeg" alt="Activity Image" class="activity-image">
             <div class="activity-content">
-                <h2>Science Faculty Photography Club</h2>
-                <p><strong>Position: </strong>Photographer</p>
-                <p><strong>Event Details: </strong>This is a club involved in photographing events within the Science Faculty. I have been working with this club for a period of 3 years.
+                <h2>Piscine at 42 Bangkok</h2>
+                <p><strong>Position: </strong>Pisciner</p>
+                <p><strong>Event Details: </strong>This program is similar to a competitive entrance exam that tests students for admission to become cadet students at 42 Bangkok by learning to code on my own and together with my peers, we collaborated to solve difficult tasks.  I learned  how to self-educate by searching for knowledge on the internet, managing my time effectively, and sharing my knowledge with friends.
+                    when I took this test the first time, I passed.
                 </p>
             </div>
         </div>
         <div class="activity-item">
-            <img src="image/Screenshot 2567-02-27 at 00.10.59.png" alt="Activity Image" class="activity-image">
-            <div class="activity-content">
-                <h2>Subject: Programming Language</h2>
-                <p><strong>Position: </strong>Teaching Assistant (TA)</p>
-                <p><strong>Event Details: </strong>
-                    My role as a Teaching Assistant (TA) involved providing additional explanations on topics that students found confusing or unclear, and acting as a mentor for their projects. During the year I served as a TA, due to the COVID-19 pandemic, it was necessary to switch to online teaching methods.
-                </p>
-            </div>
-        </div>
-        <div class="activity-item">
-            <img src="image/IMG_9762.JPG" alt="Activity Image" class="activity-image">
+            <img src="image/F1C45987-6928-4122-81DB-C343A64FBC49.jpg" alt="Activity Image" class="activity-image">
             <div class="activity-content">
                 <h2>Code Arcade Competition Event</h2>
                 <p><strong>Position: </strong>Contestant</p>
                 <p><strong>Event Details: </strong>
-                    This is a Java programming competition aimed at solving specified problems, specifically organized for Computer Science students from 1st to 4th year who are interested and want to test their skills. They are encouraged to participate in the competition.
+                    This is a coding competition of Computer Science students in KMITL. In this competition, teams or student challenge themselves to solve problems using Java. Even though we did not win, through this challenge i got to experience. I acquired skills in planning and working collaboratively as a team.
                 </p>
             </div>
         </div>
         <div class="activity-item">
             <img src="image/IMG_0400.JPG" alt="Activity Image" class="activity-image">
             <div class="activity-content">
-                <h2> SAS X KMITL Hackathon Competition Event 2nd </h2>
+                <h2> SAS X KMITL Hackathon Competition 2023 Event 2nd </h2>
                 <p><strong>Position: </strong>Contestant</p>
                 <p><strong>Event Details: </strong>
-                    This is a competition related to data analysis and the development of Machine Learning models for future data prediction based on assigned tasks. 
-                    In this competition, SAS has provided a specific challenge: to predict and analyze customer calls for charitable donations. The net donation amount 
-                    after deducting call expenses will be used as the score for judging. In this round, the gold medal criteria are set for donations exceeding 11 million dollars.
-                     SAS has prepared the necessary data for the competition, and the tool provided for use is SAS VIYA.</p>
+                    In the SAS data analysis competition, I used SAS VIYA to predict customer calls for donations, aiming for net donations above $11 million and won a gold medal. This experience enhanced my skills in data manipulation, predictive analytics, and ML techniques, along with a better understanding of financial analytics. It has significantly improved my data science skills and prepared me for future projects.</p>
+                
             </div>
         </div>
         <div class="activity-item">
@@ -261,17 +390,7 @@
                 <h2>CS Connection Event</h2>
                 <p><strong>Position: </strong>Event Participant</p>
                 <p><strong>Event Details: </strong>
-                    his event is organized by the department and will feature alumni and various companies to share knowledge about different career paths of interest, aimed at benefiting students who are interested. Participation in the event is voluntary.
-                </p>
-            </div>
-        </div>
-        <div class="activity-item">
-            <img src="image/IMG_9455.JPG" alt="Activity Image" class="activity-image">
-            <div class="activity-content">
-                <h2>Sports for Relationship Building Event(กิจกรรม กีฬาสานสัมพันธ์ แคแสด)</h2>
-                <p><strong>Position: </strong>STAFF, Photographer</p>
-                <p><strong>Event Details: </strong>
-                    The event is organized to foster relationships among faculties, and between senior and junior students and peers, to promote unity, mutual support, and harmony. The activities aim to improve physical health, uplift spirits, and offer fun experiences, teaching participants to accept wins and losses and to forgive each other, embodying true sportsmanship. This event serves as a foundation for building good health and organizing creative activities, allowing all students to participate and interact positively, preparing them for effective teamwork in the future.
+                    This event is organized by the department and will feature alumni and various companies to share knowledge about different career paths of interest, aimed at benefiting students who are interested. Participation in the event is voluntary.
                 </p>
             </div>
         </div>
@@ -279,7 +398,7 @@
             <img src="image/IMG_6618.JPG" alt="Activity Image" class="activity-image">
             <div class="activity-content">
                 <h2>Botnoi Hackathon Competition Event</h2>
-                <p><strong>Position: </strong>STAFF, Photographer</p>
+                <p><strong>Position: </strong>STAFF</p>
                 <p><strong>Event Details: </strong>
                     Botnoi OpenAI HackFest is a competition seeking teams of developers who can best apply AI to solve business challenges. Winners receive exclusive rights, opportunities to further develop their ideas, and support from leading partners and companies in Thailand.
                 </p>
@@ -288,13 +407,10 @@
         <div class="activity-item">
             <img src="image/IMG_2673.JPG" alt="Activity Image" class="activity-image">
             <div class="activity-content">
-                <h2>SAS X KMITL Hackathon Competition Event 3rd</h2>
+                <h2>SAS X KMITL Hackathon Competition 2024 Event 3rd</h2>
                 <p><strong>Position: </strong>Contestant</p>
                 <p><strong>Event Details: </strong>
-                    This is a competition related to data analysis and the development of Machine Learning models for future data prediction based on assigned tasks. 
-                    In this competition, SAS has provided a specific challenge: to predict and analyze customer calls for charitable donations. The net donation amount 
-                    after deducting call expenses will be used as the score for judging. In this round, the gold medal criteria are set for donations exceeding 12 million dollars.
-                     SAS has prepared the necessary data for the competition, and the tool provided for use is SAS VIYA.</p>
+                    In the SAS data analysis competition, I utilized SAS VIYA to predict customer calls for donations, targeting net donations over $12 million and secured the gold medal second runner-up position. This challenge improved my data manipulation, predictive analytics, and ML techniques, deepening my financial analytics understanding. It significantly boosted my data science expertise and readiness for upcoming projects.</p>
             </div>
         </div>
     </div>
@@ -309,14 +425,14 @@
                 <p><strong>Internship Duration : </strong>May - Jun 2023</p>
                 <p><strong>Internship Details : </strong>
                     <ul>
-                        <li>Analyzed errors in voices generated by Botnoi voice to improve the model for voice creation.</li>
-                        <li>Analyzed customer data from the company's Chatbot usage to identify usage trends or customer needs.</li>
-                        <li>Performed image editing and data transformation for training Machine Learning models to classify dog and cat breeds.</li>
+                        <li>Annotated Botnoi Voice data to identify frequent mispronunciations.</li>
+                        <li>Analyzed Botnoi chatbot to understand topics that people frequently discuss.</li>
+                        <li>Prepared and cleaned data to create a sentiment classification model, providing insights into user feelings.</li>
                     </ul>
                 </p>
             </div>
             <div class="certification-button">
-                <a href="Doc/IBN TN 014 ศิริรัฐ  .pdf" target="_blank" class="btn">View Internship Certification</a>
+                <a href="Doc/IBN TN 016  ชฎาทิพย์.pdf" target="_blank" class="btn">View Internship Certification</a>
             </div>
         </div>
     </div>
@@ -327,7 +443,7 @@
         <div class="portfolio" onclick="this.classList.toggle('is-flipped')">
             <div class="portfolio-inner">
                 <div class="portfolio-front">
-                    <img src="image/fun_with_data.png" alt="Certificate">
+                    <img src="image/funWithData.png" alt="Certificate">
                     <h2>Fun With Data Science</h2>
                     <button>Details</button>
                 </div>
@@ -345,21 +461,21 @@
     <section id="contact">
         <h2 id="contact" style="text-align: center; color: #0056b3;">Contact Me</h2>
         <div class="contact-info">
-            <p>Email: <a href="mailto:siriratsanghkao@gmail.com">siriratsanghkao@gmail.com</a></p>
-            <p>Phone: <a href="tel:0927483260">0927483260</a></p>
+            <p>Email: <a href="mailto:chadathip.bew@gmail.com">chadathip.bew@gmail.com</a></p>
+            <p>Phone: <a href="tel:0927483260">0924997853</a></p>
             <div class="social-media">
-                <a href="https://www.facebook.com/Sirirat401?mibextid=kFxxJD" target="_blank"><img src="image/icons8-facebook-500.png" width="50" height="50"></a>
-                <a href="https://line.me/ti/p/mQ3EGBw0Em" target="_blank"><img src="image/icons8-line-96.png" width="50" height="50"></a>
+                <a href="https://www.facebook.com/chadathap.bew?mibextid=LQQJ4d" target="_blank"><img src="image/icons8-facebook-500.png" width="50" height="50"></a>
+                <a href="https://line.me/ti/p/1jkKoIcHgf" target="_blank"><img src="image/icons8-line-96.png" width="50" height="50"></a>
                 <!-- <a href="https://www.instagram.com/sirirat_sk?igsh=bTRwODB4OTQzdm1x&utm_source=qr" target="_blank"><img src="image/icons8-ig-96.png" width="50" height="50"></a> -->
-                <a href="https://github.com/Sirirat284" target="_blank"><img src="image/icons8-github-100.png" width="50" height="50"></a>
-                <a href="https://www.linkedin.com/in/sirirat-sanghkao-6759ab285/" target="_blank"><img src="image/icons8-linkedin-96.png" width="50" height="50"></a>
+                <!-- <a href="https://github.com/Sirirat284" target="_blank"><img src="image/icons8-github-100.png" width="50" height="50"></a> -->
+                <a href="linkedin.com/in/chadathip-prangkulcharoenkit-3945b8280" target="_blank"><img src="image/icons8-linkedin-96.png" width="50" height="50"></a>
                 <!-- Add more social links as needed -->
             </div>
         </div>
     </section>
       
     <footer>
-        <p>&copy; 2023 Sirirat Sanghkao. All rights reserved.</p>
+        <p>&copy; 2024 Chadathip Prangkulcharoenkit. All rights reserved.</p>
     </footer>
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {

@@ -9,7 +9,7 @@ body {
 
 /*ส่วนของ welcome*/
 .background {
-    background-image: url('../image/IMG_4247.JPG'); /* ใส่ URL ของรูปภาพที่คุณต้องการใช้ */
+    background-image: url('../image/Group 2.png'); /* ใส่ URL ของรูปภาพที่คุณต้องการใช้ */
     height: 100vh; /* ความสูงของรูปภาพพื้นหลัง */
     background-position: center; /* ตำแหน่งของรูปภาพ */
     background-repeat: no-repeat; /* ไม่ทำซ้ำรูปภาพ */
@@ -115,8 +115,14 @@ body {
     transform: translateX(100%); 
 }
 
-
-
+/* ส่วนของ skill */
+.skill-image:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+    cursor: pointer;
+}
+.skill-image:hover .skill-description {
+    opacity: 1;
+}
 
 
 /*ส่วนของผลงาน*/
