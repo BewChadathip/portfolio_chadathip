@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="css/style_project.css"> <!-- หากมีไฟล์ CSS แยก -->
+</head>
+<body>
+    <header>
+        <h3>Sentiment Analysis Using Word Cloud</h3>
+    </header>
+
+    <section class="project-details">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="image/resort-home1.png" alt="Image 1"></div>
+                <div class="slide"><img src="image/resort-home2.png" alt="Image 2"></div>
+                <div class="slide"><img src="image/resort-home3.png" alt="Image 3"></div>
+                <div class="slide"><img src="image/resort-reservation.png" alt="Image 4"></div>
+                <div class="slide"><img src="image/resort-aboout.png" alt="Image 5"></div>
+                <div class="slide"><img src="image/resort-login.png" alt="Image 6"></div>
+                <div class="slide"><img src="image/resort-reservation2.png" alt="Image 7"></div>
+                <div class="slide"><img src="image/resort-Payment.png" alt="Image 8"></div>
+
+                <!-- เพิ่มรูปภาพเพิ่มเติมตามต้องการ -->
+            </div>
+            <div style="text-align:center">
+                <span class="slider-button" onclick="currentSlide(1)"></span>
+                <span class="slider-button" onclick="currentSlide(2)"></span>
+                <span class="slider-button" onclick="currentSlide(3)"></span>
+                <span class="slider-button" onclick="currentSlide(4)"></span>
+                <span class="slider-button" onclick="currentSlide(5)"></span>
+                <span class="slider-button" onclick="currentSlide(6)"></span>
+                <span class="slider-button" onclick="currentSlide(7)"></span>
+                <span class="slider-button" onclick="currentSlide(8)"></span>
+
+
+                <!-- เพิ่ม span สำหรับแต่ละรูปภาพ -->
+            </div>
+        </div>
+        <h2>Project Name</h2>
+        <p>Web Application Baan Rim Nam Resort</p>
+        <h2>Project Details</h2>
+        <p> This project involves the design and development of a web application for Ban Rim Nam Resort, which is set to launch soon. The application's primary functions include user registration, login, Google authentication for signup and login, advertising, and accommodation booking. Additionally, it features an administrative system to manage various resort services such as monitoring the availability of accommodations, checking new bookings, viewing various booking statistics, and enhancing the security of the project.</p>
+        <h2>Role</h2>
+        <p>Full Stack Developer</p>
+        <h2>Responsibilities</h2>
+        <p>My responsibilities include designing the system's UI, creating databases for data storage, and coding the back-end. The functions I have developed include register, login, checking available rooms, and booking accommodations</p>
+        <h2>Tools</h2>
+        <ul>
+            <li>Google Cloud</li>
+            <li>Google OAuth</li>
+            <li>DOMPurify</li>
+            <li>passport-google-oauth20</li>
+            <li>NginX</li>
+            <li>jsonwebtoken</li>
+            <li>bcrypt</li>
+
+            <!-- เพิ่มเทคโนโลยีอื่นๆ ที่ใช้ -->
+        </ul>
+
+        <h2>Programming Languages</h2>
+        <ul>
+            <li> Next JS (tsx) </li>
+            <li> Node JS </li>
+            <li> SQL </li>
+            <!-- เพิ่มเทคโนโลยีอื่นๆ ที่ใช้ -->
+        </ul>
+
+        <h2>Programming</h2>
+        <ul>
+            <li>VS CODE</li>
+            <li>POSTMAN</li>
+            <li>DBeaver</li>
+            <li>Google cloud console</li>
+            <li>AWS</li>
+            <li>Godaddy</li>
+            <!-- เพิ่มเทคโนโลยีอื่นๆ ที่ใช้ -->
+        </ul>
+        <!-- <h2>Project Link</h2>
+        <a href="https://example.com">Visit the project</a>
+
+        <h2>Source Code</h2>
+        <a href="https://github.com/example/project">GitHub Repository</a> -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Chadathip Prangkulcharoenkit. All rights reserved.</p>
+    </footer>
+    <script>
+      let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // ฟังก์ชันเพิ่มหรือลด index และแสดงสไลด์
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        // ฟังก์ชันตั้งค่าสไลด์ปัจจุบันตาม n
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        // ฟังก์ชันแสดงสไลด์
+        function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slide");
+        let dots = document.getElementsByClassName("slider-button");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+</html>
